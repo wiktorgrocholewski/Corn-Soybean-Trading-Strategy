@@ -1,0 +1,53 @@
+{
+  "n_weather": 135,
+  "selected": [
+    "et0_fao_evapotranspiration_sum_central_illinois_roll30d_sum",
+    "et0_fao_evapotranspiration_sum_central_indiana_roll30d_sum",
+    "et0_fao_evapotranspiration_sum_north_dakota_roll30d_sum",
+    "kf_level_z",
+    "kf_spread",
+    "precipitation_sum_central_illinois_roll30d_sum",
+    "precipitation_sum_north_dakota_roll30d_sum",
+    "relative_humidity_2m_mean_north_dakota_roll30d_mean",
+    "relative_humidity_2m_mean_oklahoma_roll30d_mean",
+    "relative_humidity_2m_mean_parana_roll30d_mean",
+    "soil_moisture_0_to_100cm_mean_north_dakota_roll30d_min",
+    "soil_moisture_0_to_100cm_mean_oklahoma_roll30d_min",
+    "soil_moisture_0_to_7cm_mean_central_illinois_roll30d_min",
+    "soil_moisture_0_to_7cm_mean_kansas_roll30d_min",
+    "soil_moisture_28_to_100cm_mean_north_dakota_roll30d_min",
+    "soil_moisture_28_to_100cm_mean_oklahoma_roll30d_min",
+    "soil_moisture_7_to_28cm_mean_kansas_roll30d_min",
+    "soil_moisture_7_to_28cm_mean_oklahoma_roll30d_min",
+    "soil_moisture_7_to_28cm_mean_rio_grande_sul_roll30d_min",
+    "soil_temperature_0_to_7cm_mean_oklahoma_roll30d_mean",
+    "spread_vol",
+    "temperature_2m_max_oklahoma_roll30d_mean",
+    "temperature_2m_mean_parana_roll30d_mean",
+    "temperature_2m_min_parana_roll30d_mean",
+    "vapour_pressure_deficit_max_kansas_roll30d_mean",
+    "vapour_pressure_deficit_max_rio_grande_sul_roll30d_mean",
+    "wet_bulb_temperature_2m_mean_mato_grosso_roll30d_mean",
+    "wind_speed_10m_max_central_iowa_roll30d_max",
+    "wind_speed_10m_max_mato_grosso_roll30d_max",
+    "wind_speed_10m_max_parana_roll30d_max"
+  ],
+  "best_xgb": {
+    "max_depth": 4.0,
+    "learning_rate": 0.1,
+    "n_estimators": 300.0,
+    "min_child_weight": 15.0,
+    "train_nll": -0.6466754668442608,
+    "test_nll": -0.6767993200962152,
+    "gap": 0.030123853251954436
+  },
+  "best_pipe": {
+    "delta": 1e-05,
+    "num_days": 200.0,
+    "pt_sl": 2.5,
+    "n_events": 2966.0,
+    "train_nll": -0.6464881670678059,
+    "test_nll": -0.6767968823480461,
+    "gap": 0.03030871528024026
+  }
+}

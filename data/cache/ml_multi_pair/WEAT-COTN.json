@@ -1,0 +1,52 @@
+{
+  "n_weather": 90,
+  "selected": [
+    "et0_fao_evapotranspiration_sum_oklahoma_roll30d_sum",
+    "et0_fao_evapotranspiration_sum_rajkot_roll30d_sum",
+    "kf_level_z",
+    "kf_spread",
+    "precipitation_sum_kansas_roll30d_sum",
+    "relative_humidity_2m_mean_kansas_roll30d_mean",
+    "relative_humidity_2m_mean_north_dakota_roll30d_mean",
+    "snowfall_water_equivalent_sum_kansas_roll30d_sum",
+    "soil_moisture_0_to_100cm_mean_korla_roll30d_min",
+    "soil_moisture_0_to_100cm_mean_rajkot_roll30d_min",
+    "soil_moisture_0_to_7cm_mean_korla_roll30d_min",
+    "soil_moisture_0_to_7cm_mean_north_dakota_roll30d_min",
+    "soil_moisture_0_to_7cm_mean_rajkot_roll30d_min",
+    "soil_moisture_28_to_100cm_mean_north_dakota_roll30d_min",
+    "soil_moisture_28_to_100cm_mean_oklahoma_roll30d_min",
+    "soil_moisture_28_to_100cm_mean_rajkot_roll30d_min",
+    "soil_moisture_7_to_28cm_mean_kansas_roll30d_min",
+    "soil_moisture_7_to_28cm_mean_rajkot_roll30d_min",
+    "soil_temperature_0_to_7cm_mean_kansas_roll30d_mean",
+    "soil_temperature_0_to_7cm_mean_korla_roll30d_mean",
+    "soil_temperature_0_to_7cm_mean_north_dakota_roll30d_mean",
+    "soil_temperature_0_to_7cm_mean_rajkot_roll30d_mean",
+    "spread_vol",
+    "temperature_2m_max_korla_roll30d_mean",
+    "temperature_2m_mean_rajkot_roll30d_mean",
+    "temperature_2m_min_kansas_roll30d_mean",
+    "temperature_2m_min_rajkot_roll30d_mean",
+    "wet_bulb_temperature_2m_mean_korla_roll30d_mean",
+    "wet_bulb_temperature_2m_mean_rajkot_roll30d_mean"
+  ],
+  "best_xgb": {
+    "max_depth": 6.0,
+    "learning_rate": 0.01,
+    "n_estimators": 100.0,
+    "min_child_weight": 5.0,
+    "train_nll": -0.6101916721518084,
+    "test_nll": -0.6840846468568162,
+    "gap": 0.07389297470500789
+  },
+  "best_pipe": {
+    "delta": 1e-05,
+    "num_days": 200.0,
+    "pt_sl": 2.5,
+    "n_events": 2900.0,
+    "train_nll": -0.6096456700543773,
+    "test_nll": -0.6819262276575788,
+    "gap": 0.07228055760320151
+  }
+}

@@ -1,7 +1,7 @@
 # Trading the corn–soybean spread
 
-Research project of the Tilburg Investment Club (TIC), Spring 2026 —
-Wiktor Grocholewski, Roos de Brabander, Antonio Harley, Artem Zeziulin.
+Research project of the Trading and Investment Club (TIC), Spring 2026 —
+Roos de Brabander, Wiktor Grocholewski, Antonio Harley, Artem Zeziulin.
 
 **Question.** Corn and soybean compete for the same land and are driven by the same demand and weather shocks, so
 their prices should not drift apart forever. Can the spread between them — and, more generally, between grain
